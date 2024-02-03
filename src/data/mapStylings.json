@@ -16,5 +16,8 @@
           "visibility": "off"
         }
       ]
+    },
+    {
+        "streetViewControl": "false"
     }
   ]

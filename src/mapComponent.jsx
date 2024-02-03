@@ -18,6 +18,7 @@ const center = {
 
 const zoom = 16
 
+// This loads the actual google maps
 function MyComponent() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
@@ -27,7 +28,6 @@ function MyComponent() {
   const [map, setMap] = React.useState(null)
 
   const onLoad = React.useCallback(function callback(map) {
-    // This is just an example of getting and using the map instance!!! don't just blindly copy!
     const bounds = new window.google.maps.LatLngBounds(center);
     map.setZoom(zoom);
 
@@ -38,10 +38,10 @@ function MyComponent() {
     setMap(null)
   }, [])
 
+  // To see the options that were put
   return isLoaded ? (
       <GoogleMap
         mapContainerStyle={containerStyle}
-        options={{streetViewControl: false}}
         center={center}
         radius={20}
         zoom={zoom}
@@ -50,7 +50,7 @@ function MyComponent() {
         onUnmount={onUnmount}
       >
         { /* Child components, such as markers, info windows, etc. */ }
-        
+        // Markers will be put here
         <></>
       </GoogleMap>
   ) : <></>

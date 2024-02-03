@@ -77,6 +77,15 @@ function MyComponent() {
                         <div className='modal-text'>
                             <h2>{restaurant.name}</h2>
                             <p>{restaurant.description}</p>
+                            <h3>Hours</h3>
+                            {restaurant.time.split(",").map((indiv) => {
+                                const timeSplit = indiv.split("-")
+                                if(timeSplit[1] == "00:00" && timeSplit[2] == "00:00") {
+                                    return(<p>{timeSplit[0]}: Closed</p>)
+                                } else {
+                                    return(<p>{timeSplit[0]}: {timeSplit[1]}am - {parseInt(timeSplit[2])-12}:00pm</p>)
+                                }
+                            })}
                         </div>
                     </Modal>
             </Marker>          

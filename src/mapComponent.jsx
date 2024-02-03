@@ -1,6 +1,11 @@
-import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import React, {useState} from 'react'
+import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import mapStylings from "./data/mapStylings.json"
+import restaurantData from "./data/data.json"
+import Modal from 'react-responsive-modal';
+import 'react-responsive-modal/styles.css';
+
+console.log(restaurantData)
 
 const containerStyle = {
   width: '100vw',
@@ -20,6 +25,18 @@ const zoom = 16
 
 // This loads the actual google maps
 function MyComponent() {
+  const [open, setOpen] = useState(-1)
+
+  const onOpenModal = (id) => {
+    setOpen(id);
+    console.log(id)
+  }
+  const onCloseModal = () => {
+    setOpen(-1)
+    // const test = document.querySelector(".react-responsive-modal-root")
+    // test.parentNode.remove()
+};
+
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API
@@ -28,7 +45,6 @@ function MyComponent() {
   const [map, setMap] = React.useState(null)
 
   const onLoad = React.useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds(center);
     map.setZoom(zoom);
 
     setMap(map)
@@ -50,7 +66,22 @@ function MyComponent() {
         onUnmount={onUnmount}
       >
         { /* Child components, such as markers, info windows, etc. */ }
-        // Markers will be put here
+        {restaurantData.map(restaurant => (
+            <div>
+            <Marker 
+                position={restaurant.location}
+                onClick={() => onOpenModal(restaurant.id)}
+                key = {restaurant.id}
+            >
+                    <Modal open={open == restaurant.id} onClose={onCloseModal}>
+                        <div className='modal-text'>
+                            <h2>{restaurant.name}</h2>
+                            <p>{restaurant.description}</p>
+                        </div>
+                    </Modal>
+            </Marker>          
+            </div>
+        ))}
         <></>
       </GoogleMap>
   ) : <></>

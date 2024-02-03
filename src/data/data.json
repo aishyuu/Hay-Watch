@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Carl's Jr.",
+        "location": { "lat": 34.053932820804086, "lng":  -117.818957354201},
+        "info":"rating of restaurant",
+        "time":"00:00-00:00, 08:00-21:00, 08:00-21:00, 08:00-21:00, 08:00-21:00, 08:00-14:00, 00:00-00:00",
+        "description":"Carl's Jr. features items such as charbroiled hamburgers, chicken sandwiches, turkey burgers, fish sandwiches, French fries, fresh salads, and breakfast items. The low-priced meal combos are always the way to go when you want the most for your dollar. For your convenience, we also have an express line during peak periods, featuring select combos.",
+        "phone_number":"9098695269",
+        "image":"imageOfRestaurant",
+        "categories": "burgers, fast food"
+    },
+    {
+      "name": "Fresh Escape",
+      "location": { "lat": 34.05780098486272, "lng": -117.82306317261177},
+      "info":"4.0",
+      "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+      "description":"Fresh Escape offers an array of fresh vegetables and toppings to create a delicious custom-made salad. Gluten-free pita pizzas, oven-baked potatoes, bread bowls with home-style soups or chili, and seasonal fresh fruits are also available.",
+      "phone_number":"9098695099",
+      "image":"imageOfRestaurant",
+      "categories": "healthy, salads, salad, soup"
+  },
+  {
+    "name": "Fresh International Grounds & IG Express",
+    "location": { "lat": 34.0578910494071, "lng": -117.82302452192638},
+    "info":"4.0",
+    "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+    "description":"International Grounds offers the We Proudly Serve Starbucks concept, which is an abridged version of Starbucks' most popular hot and cold beverages, including five Frappuccino flavors. Fresh baked goods, such as muffins and bagels, are also available.",
+    "phone_number":"9098695099",
+    "categories": "coffee, cafe, pastries, donuts, drinks"
+  },
+  {
+    "name": "Panda Express",
+    "location": { "lat": 34.0578910494071, "lng": -117.82302452192638},
+    "info":"rating of restaurant",
+    "time":"00:00-00:00, 10:00-20:00, 10:00-20:00, 10:00-20:00, 10:00-20:00, 10:00-20:00, 00:00-00:00",
+    "description":"From world-famous orange chicken to delicious chow mein, Panda Express defines American-Chinese cuisine with bold flavors and fresh ingredients. Panda Express entrees and sides contain zero grams of trans fat per serving and adds no MSG in their food. Panda Express uses only 100% pure soybean oil in the preparation of recipes.",
+    "phone_number":"9098695099",
+    "categories": "Chinese, Asian"
+  },
+  {
+    "name": "Sushi Bar",
+    "location": { "lat": 34.0580771358781, "lng":  -117.82384148833503},
+    "info":"rating of restaurant",
+    "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+    "description":"The Sushi Bar is the ideal pit stop if you are on the move and looking for a scrumptious yet speedy meal. Offering a mouthwatering selection of your favorite sushi options, including vegetarian alternatives, you're sure to find a delectable snack or satisfying meal that will leave you craving more. With carefully crafted sushi prepared daily, the Sushi Bar is the go-to destination for all your sushi cravings.",
+    "phone_number":"9098695099",
+    "categories": "Japanese, Asian, sushi, ramen, instant"
+  },
+  {
+    "name": "Saddles Cafe",
+    "location": { "lat": 34.05559452134627, "lng": -117.82082751181953},
+    "info":"3.5",
+    "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+    "description":"Saddles Cafe serves specialty coffee and tea beverages as well as a variety of fresh pastries, grab n’ go items and a specialty panini menu. Saddles Cafe proudly serves Starbucks coffee accompanied by pastries and a panini program. The panini program incorporates fresh fruit and veggies grown on the Cal Poly Pomona campus.",
+    "phone_number":"9098695099",
+    "categories": "coffee, cafe, tea, drinks, beverages, pastries, sandwiches, panini"
+  },
+  {
+    "name": "Poly Fresh",
+    "location": { "lat": 34.056324501168056, "lng": -117.82142023172561},
+    "info":"rating of restaurant",
+    "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+    "description":"Poly Fresh makes it convenient for you to keep your commitment to eating healthy. From fresh fruit to salads, from Farm Store snacks to refreshing beverages, Poly Fresh provides numerous options for a healthy lifestyle.",
+    "phone_number":"9098695099",
+    "categories": "groceries, grocery, store, convenience"
+  },
+  {
+    "name": "Qdoba Mexican Grill",
+    "location": { "lat": 34.05617587258195, "lng": -117.82119560819721},
+    "info":"3.5",
+    "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+    "description":"Simple Mexican counter-serve chain for burritos, tacos & more, including health-oriented options.",
+    "phone_number":"9098695099",
+    "categories": "Mexican, food, grill"
+  },
+  {
+    "name": "Round Table Pizza",
+    "location": { "lat": 34.05648439230166, "lng": -117.8212821173723},
+    "info":"3.5",
+    "time":"00:00-00:00, 11:00-21:00, 11:00-21:00, 11:00-21:00, 11:00-21:00, 11:00-14:00, 00:00-00:00",
+    "description":"Long-running chain serving pizzas with customizable toppings & sauces in a simple space.",
+    "phone_number":"9098695099",
+    "categories": "Italian, pizza"
+  },
+  {
+    "name": "Subway",
+    "location": { "lat": 34.05589789565766, "lng": -117.82026239101097},
+    "info":"4.0",
+    "time":"00:00-00:00, 09:00-15:00, 09:00-15:00, 09:00-15:00, 09:00-15:00, 11:00-14:00, 00:00-00:00",
+    "description":"Casual counter-serve chain for build-your-own sandwiches & salads, with health-conscious options.",
+    "phone_number":"9098695099",
+    "categories": "sandwiches"
+  },
+  {
+    "name": "Hibachi-San",
+    "location": { "lat": 34.05561498892061, "lng":   -117.820823423461},
+    "info":"4.0",
+    "time":"00:00-00:00, 09:00-15:00, 09:00-15:00, 09:00-15:00, 09:00-15:00, 11:00-14:00, 00:00-00:00",
+    "description":"Counter-serve chain offering Japanese grilled fare, including teriyaki dishes, plus sushi.",
+    "phone_number":"9098695099",
+    "categories": "Japanese, Asian"
+  },
+  {
+    "name": "Vista Market",
+    "location": { "lat": 34.05421423034836, "lng": -117.81785821737247},
+    "info":"4.0",
+    "time":"10:00-22:00, 10:00-22:00, 10:00-22:00, 10:00-22:00, 10:00-22:00, 10:00-22:00, 10:00-22:00",
+    "description":"We are a fully stocked, one-stop-shop neighborhood store with a fun community vibe that offers personal items and the staples needed to prepare home-cooked meals.",
+    "phone_number":"9098695099",
+    "categories": "groceries, grocery, store, convenience"
+  },
+  {
+    "name": "Pony Express",
+    "location": { "lat": 34.06153680765279, "lng": -117.82007308735952},
+    "info":"4.5",
+    "time":"00:00-00:00, 11:00-18:00, 11:00-18:00, 11:00-18:00, 11:00-18:00, 11:00-18:00, 00:00-00:00",
+    "description":"Pony Express is a convenience store with a wide variety of grab-n-go items, including sandwiches, sushi, beverages, and other snacks. School supplies, health and beauty aids, and various other personal items are also sold at Pony Express.",
+    "phone_number":"9098695099",
+    "categories": "groceries, grocery, store, convenience"
+  },
+  {
+    "name": "Element Coffee & Food",
+    "location": { "lat": 34.06176101236705, "lng":  -117.81991788483435},
+    "info":"4.0",
+    "time":"00:00-00:00, 11:00-18:00, 11:00-18:00, 11:00-18:00, 11:00-18:00, 11:00-18:00, 00:00-00:00",
+    "description":"The Element Coffee & Food menu offers a variety of sandwiches and bowls consisting of fresh ingredients to deliver a delicious flavor!",
+    "phone_number":"9098695099",
+    "categories": "sandwiches, coffee, bowls, fresh"
+  },
+  {
+    "name": "Center Pointe Dining",
+    "location": { "lat": 34.05700846661902, "lng": -117.81807762769886},
+    "info":"rating of restaurant",
+    "time":"11:00-20:00, 07:00-20:00, 07:00-20:00, 07:00-20:00, 07:00-20:00, 07:00-20:00, 11:00-20:00",
+    "description":"Dining hall.",
+    "phone_number":"9098695099",
+    "categories": "dining, hall"
+  },
+  {
+    "name": "Innovation Brewworks",
+    "location": { "lat": 34.049997371344375, "lng": -117.81574431074799},
+    "info":"rating of restaurant",
+    "time":"11:00-21:00, 11:00-21:00, 11:00-21:00, 11:00-21:00, 11:00-22:00, 11:00-22:00, 00:00-22:00",
+    "description":"Innovation Brew Works offers fresh, made-to-order pizzas, sandwiches, salads, and desserts. Beers produced at Innovation Brew Works are original recipes made with ingredients grown on the Cal Poly Pomona campus.",
+    "phone_number":"9098695099",
+    "categories": "beer, food, brewery"
+  },
+  {
+    "name": "ENV Cafe",
+    "location": { "lat": 34.05769355060119, "lng": -117.8274368057307},
+    "info":"5.0",
+    "time":"00:00-00:00, 08:00-19:30, 08:00-19:30, 08:00-19:30, 08:00-19:30,, 08:00-19:30, 00:00-00:00",
+    "description":"Pair our fresh baked goodies with your favorite Starbucks coffee beverage. Always satisfying no matter what time of day. We offer sandwiches, pastries, beverages, and delicious snack items. We are located in building 7.",
+    "phone_number":"9098695099",
+    "categories": "coffee, cafe, bread, pastries, bakery"
+  },
+  {
+    "name": "BRIC Break",
+    "location": { "lat": 34.05444401569478, "lng": -117.82027129789539},
+    "info":"4.0",
+    "time":"00:00-00:00, 08:00-19:30, 08:00-19:30, 08:00-19:30, 08:00-19:30,, 08:00-19:30, 00:00-00:00",
+    "description":"BRIC Break presents a delectable assortment of freshly made smoothies and acai bowls that can be personalized according to your preference. Positioned in the gym, these offerings serve as a perfect pick-me-up after your workout, providing you with the necessary energy to power through the rest of your day.",
+    "phone_number":"9098695099",
+    "categories": "smoothies, acai bowls"
+  },
+  {
+    "name": "Fitbites",
+    "location": { "lat": 34.05415897468785, "lng": -117.81793377504421},
+    "info":"2.5",
+    "time":"15:00-20:00, 11:00-22:00, 11:00-22:00, 11:00-22:00, 11:00-22:00, 11:00-22:00, 15:00-20:00",
+    "description":"Fitbites promises a one-of-a-kind experience, featuring a fusion of diverse cuisines that includes mouth-watering warm bowls, delectable salads, satisfying hot subs, and scrumptious paninis. You can turn any meal into a combo and add savory bites such as mozzarella sticks and fried zucchini to elevate your dining experience. Whether it's for lunch or dinner, Fitbites has got you covered with their extensive menu selection.",
+    "phone_number":"9098695099",
+    "categories": "salads, subs, sandwiches"
+  },
+  {
+    "name": "Lollicup",
+    "location": { "lat": 34.0571084888088, "lng": -117.8186992861104},
+    "info":"4.o",
+    "time":"11:00-20:00, 07:00-20:00, 07:00-20:00, 07:00-20:00, 07:00-20:00, 07:00-20:00, 11:00-20:00",
+    "description":"Lollicup, situated in Centerpointe, provides a wide selection of delightful beverages. With an impressive assortment of boba, smoothies, slushies, and teas, this establishment hosts a vast menu. You'll find yourself eager to return and explore the multitude of flavors Lollicup has to offer.",
+    "phone_number":"9098695099",
+    "categories": "Asian, drinks, boba, smoothie"
+  },
+  {
+    "name": "H Café",
+    "location": { "lat": 34.05530501244679, "lng": -117.824389730654},
+    "info":"4.0",
+    "time":"00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
+    "description":"H Café is a small convenience store serving grab-and-go snacks, beverages, and self-serve Starbucks coffee.",
+    "phone_number":"9098695099",
+    "categories": "cafe, coffee, snacks, drinks"
+  },
+  {
+    "name": "Restaurant at Kellog Ranch",
+    "location": { "lat": 34.0549088413985, "lng": -117.8236254890868},
+    "info":"4.5",
+    "time":"00:00-00:00, 00:00-00:00, 11:00-12:30, 11:00-12:30, 11:00-12:30, 11:00-12:30, 00:00-00:00",
+    "description":"Cal Poly Pomona's chic seasonal New American restaurant run by hospitality management students.",
+    "phone_number":"9098695099",
+    "categories": "New American"
+  }
+]

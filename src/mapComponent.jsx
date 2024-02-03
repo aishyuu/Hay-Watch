@@ -85,7 +85,18 @@ function MyComponent() {
                                 } else {
                                     return(<p>{timeSplit[0]}: {timeSplit[1]}am - {parseInt(timeSplit[2])-12}:00pm</p>)
                                 }
-                            })}
+                                
+                            }
+                            )}
+                            <br />
+                            <p>Phone Number: {restaurant.phone_number}</p>
+                            <div className='modal-categories-div'>
+                                {restaurant.categories.split(", ").map((category) => {
+                                    return(
+                                        <p className='category-text'>{category}</p>
+                                    )
+                                })}
+                            </div>
                         </div>
                     </Modal>
             </Marker>          

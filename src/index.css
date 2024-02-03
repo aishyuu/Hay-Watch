@@ -86,3 +86,16 @@ button:focus-visible {
 .modal-text {
   color: black;
 }
+
+.modal-categories-div {
+  display: flex;
+  gap: 0.4rem;
+align-items: center;
+}
+
+.category-text {
+  border: 2px solid black;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(202, 202, 202);
+}

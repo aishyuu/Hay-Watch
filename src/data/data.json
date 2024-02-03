@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Carl's Jr.",
-    "location": { "lat": 34.053932820804086, "lng": -117.818957354201 },
+    "location": { "lat": 34.05784247377694, "lng": -117.82318975280822 },
     "info": "rating of restaurant",
     "time": "00:00-00:00, 08:00-21:00, 08:00-21:00, 08:00-21:00, 08:00-21:00, 08:00-14:00, 00:00-00:00",
     "description": "Carl's Jr. features items such as charbroiled hamburgers, chicken sandwiches, turkey burgers, fish sandwiches, French fries, fresh salads, and breakfast items. The low-priced meal combos are always the way to go when you want the most for your dollar. For your convenience, we also have an express line during peak periods, featuring select combos.",
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "name": "Panda Express",
-    "location": { "lat": 34.0578910494071, "lng": -117.82302452192638 },
+    "location": { "lat": 34.057646659211024, "lng": -117.8236651147951 },
     "info": "rating of restaurant",
     "time": "00:00-00:00, 10:00-20:00, 10:00-20:00, 10:00-20:00, 10:00-20:00, 10:00-20:00, 00:00-00:00",
     "description": "From world-famous orange chicken to delicious chow mein, Panda Express defines American-Chinese cuisine with bold flavors and fresh ingredients. Panda Express entrees and sides contain zero grams of trans fat per serving and adds no MSG in their food. Panda Express uses only 100% pure soybean oil in the preparation of recipes.",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "name": "Sushi Bar",
-    "location": { "lat": 34.0580771358781, "lng": -117.82384148833503 },
+    "location": { "lat": 34.05774405841522, "lng": -117.82296296949596 },
     "info": "rating of restaurant",
     "time": "00:00-00:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-19:00, 11:00-14:00, 00:00-00:00",
     "description": "The Sushi Bar is the ideal pit stop if you are on the move and looking for a scrumptious yet speedy meal. Offering a mouthwatering selection of your favorite sushi options, including vegetarian alternatives, you're sure to find a delectable snack or satisfying meal that will leave you craving more. With carefully crafted sushi prepared daily, the Sushi Bar is the go-to destination for all your sushi cravings.",
